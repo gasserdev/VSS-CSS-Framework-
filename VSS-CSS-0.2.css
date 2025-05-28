@@ -1,4 +1,4 @@
-/* VSS-CSS Virsion 0.1  */
+/* VSS-CSS Virsion 0.2  */
 
 /* main font */
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
@@ -18,6 +18,9 @@
 }
 
 /* main style */
+html, body {
+    height: 100%;
+}
 *{
     box-sizing: border-box;
     font-family: "Cairo", sans-serif;
@@ -479,6 +482,9 @@
 .w-10{
     width: 10rem;
 }
+.w-half{
+    width: 50%;
+}
 .w-full{
     width:100%;
 }
@@ -516,8 +522,68 @@
 .h-10{
     height: 10rem;
 }
+.h-11{
+    height: 11rem;
+}
+.h-12{
+    height: 12rem;
+}
+.h-13{
+    height: 13rem;
+}
+.h-14{
+    height: 14rem;
+}
+.h-15{
+    height: 15rem;
+}
+.h-16{
+    height: 16rem;
+}
+.h-17{
+    height: 17rem;
+}
+.h-18{
+    height: 18rem;
+}
+.h-19{
+    height: 19rem;
+}
+.h-20{
+    height: 20rem;
+}
+.h-21{
+    height: 21rem;
+}
+.h-22{
+    height: 22rem;
+}
+.h-23{
+    height: 23rem;
+}
+.h-24{
+    height: 24rem;
+}
+.h-25{
+    height: 25rem;
+}
+.h-26{
+    height: 26rem;
+}
+.h-27{
+    height: 27rem;
+}
+.h-28{
+    height: 28rem;
+}
+.h-29{
+    height: 29rem;
+}
+.h-30{
+    height: 30rem;
+}
 .h-100vh{
-    height:100%;
+    height: 100vh;
 }
 .h-100{
     height:100%;
@@ -566,8 +632,11 @@
 .fs-10{
     font-size: 10rem;
 }
-.fs-a{
+.fs-20px{
     font-size: 20px;
+}
+.fs-30px{
+    font-size: 30px;
 }
 /* font weight */
 .fw-100{
@@ -664,10 +733,26 @@
 .orange{
     color: var(--orange);
 }
+/* li */
+.no-dots{
+    list-style: none;
+}
+.dots{
+    list-style: disc;
+}
 
-/* responsive view */
+/* responsive view  in mobile*/
 @media  screen and (max-width: 768px) {
-    .flex{
+    .m-f-row{
+        flex-direction: row;
+    }
+    .m-f-row-reverse{
+        flex-direction: row-reverse;
+    }
+    .m-f-col{
         flex-direction: column;
+    }
+    .m-f-col-reverse{
+        flex-direction: column-reverse;
     }
 }

@@ -20,7 +20,7 @@
     --light-green: #58D68D;
     --light-orange: #F39C12;
     --light-purple: #9B59B6;
-    --light-red: #dc5c4e;
+    --light-red: #ff6666;
 
 }
 
@@ -2215,6 +2215,7 @@ html, body {
 .transition-20{
     transition: 2s;
 }
+
 /* responsive view  in mobile && tablit */
 @media screen and (max-width: 768px) {
     body{

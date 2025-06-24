@@ -1,7 +1,7 @@
 # VSS-CSS is modern and minimum CSS Framework 
 =============================================
-version : 0.5
-By Gasser Zayed
+## version : 0.5
+### By Gasser Zayed
 ==============
 CDN https://cdn.jsdelivr.net/gh/gasserdev/VSS-CSS-Framework-/VSS-CSS-min-0.5.css
 ===========
